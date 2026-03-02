@@ -16,7 +16,7 @@ public class App {
             System.out.println("Conectado ao Broker Industrial!");
 
             // ATENÇÃO: Coloque aqui EXATAMENTE o mesmo tópico que você usou no código do Wokwi (ESP32)
-            String topico = "senai/ensaios/telemetria/seu_nome";
+            String topico = "senai/ensaios/telemetria/bruno";
 
             // Inscreve-se no tópico para receber os dados
             client.subscribe(topico, (topic, msg) -> {
